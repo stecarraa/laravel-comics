@@ -1,0 +1,52 @@
+header .ms-container {
+  width: 80%;
+  margin: 0 auto;
+}
+header li {
+  list-style: none;
+  display: inline;
+  padding: 1rem;
+}
+header li:hover {
+  color: #0282F9;
+  border-bottom: 0.5rem solid #0282F9;
+}
+header .jumbotron {
+  height: 40vh;
+  width: 100%;
+}
+header .jumbotron img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer .main-footer-container {
+  background-image: url("../assets/img/footer-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+footer li {
+  font-weight: 300;
+}
+footer .ms-lower-footer-bg {
+  background-color: #303030;
+}
+footer .ms-main-blue-color {
+  color: #0C7CEC;
+}
+
+.ms-blue-bg {
+  background-color: #0281FA;
+}
+
+.w-5 {
+  width: 20%;
+}
+
+main .ms-position {
+  position: absolute;
+  top: 0%;
+  left: 30px;
+  transform: translate(30px, -20px);
+}
