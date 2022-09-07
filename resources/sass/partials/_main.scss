@@ -4,4 +4,16 @@ main{
         top: 0%;
         left: 30px;
       transform: translate(30px,-20px);}
+
+      .card{
+        width: calc((100% / 6 ) - 20px);
+        }
+        .comic-img-container{
+            width: 250px;
+            height: 250px;
+        }
+        img{
+        height: 100%;
+        object-fit: contain;
+         }
 }
