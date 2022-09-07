@@ -2,7 +2,6 @@
 
 @section("main-content")
 
-    <div>
 
 
         <div class="p-5 bg-black text-center position-relative ">
@@ -24,8 +23,6 @@
           <button class="btn btn-primary btn-lg">Load more</button>
           </div>
 
-       
-    </div>
     
 
 @endsection
